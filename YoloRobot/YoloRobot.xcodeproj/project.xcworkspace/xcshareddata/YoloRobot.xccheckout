@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F432E2BA-D7A1-4977-A0AF-FD4432584316</string>
+	<key>IDESourceControlProjectName</key>
+	<string>YoloRobot</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B946C1E17CD607B25A1656F4E528BF9C1261CB32</key>
+		<string>https://github.com/volonbolon/yolo-robot.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>YoloRobot/YoloRobot.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B946C1E17CD607B25A1656F4E528BF9C1261CB32</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/volonbolon/yolo-robot.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B946C1E17CD607B25A1656F4E528BF9C1261CB32</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B946C1E17CD607B25A1656F4E528BF9C1261CB32</string>
+			<key>IDESourceControlWCCName</key>
+			<string>yolo-robot</string>
+		</dict>
+	</array>
+</dict>
+</plist>
