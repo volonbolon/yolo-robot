@@ -7,21 +7,56 @@
 //
 
 #import "ViewController.h"
+#import "Constants.h"
+
+typedef NS_ENUM(NSUInteger, SelectBundleButtonTag) {
+    SelectBundleButtonTag_Blue=1001,
+    SelectBundleButtonTag_Red,
+};
 
 @interface ViewController ()
+- (IBAction)selectBundleButtonTapped:(id)sender;
 
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
+
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
 }
 
-- (void)didReceiveMemoryWarning {
+- (void)didReceiveMemoryWarning
+{
+
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+
 }
 
+- (IBAction)selectBundleButtonTapped:(id)sender
+{
+    
+    NSString *selectedBundleName = nil;
+    
+    switch ( [(UIControl *)sender tag] ) {
+        
+        case SelectBundleButtonTag_Blue:
+            selectedBundleName = @"blue";
+            break;
+            
+        case SelectBundleButtonTag_Red:
+            selectedBundleName = @"red";
+            break;
+            
+    }
+    
+    [[NSUserDefaults standardUserDefaults] setObject:selectedBundleName forKey:kSelectedBundleNameKey];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+    
+    [self performSegueWithIdentifier:@"presentContentSegue" sender:nil];
+    
+}
 @end
