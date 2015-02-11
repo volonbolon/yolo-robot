@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "Constants.h"
+#import "SSZipArchive.h"
 
 typedef NS_ENUM(NSUInteger, SelectBundleButtonTag) {
     SelectBundleButtonTag_Blue=1001,
@@ -38,6 +39,19 @@ typedef NS_ENUM(NSUInteger, SelectBundleButtonTag) {
 
 - (IBAction)selectBundleButtonTapped:(id)sender
 {
+
+    NSString *zipPath = [[NSBundle mainBundle] pathForResource:@"blue.bundle" ofType:@"zip"];
+    
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentsDirectory = [paths firstObject];
+    
+    NSError *error = nil;
+    BOOL success = [SSZipArchive unzipFileAtPath:zipPath toDestination:documentsDirectory overwrite:YES password:nil error:&error];
+    if ( !success ) {
+        
+        NSLog(@"%@", error);
+        
+    }
     
     NSString *selectedBundleName = nil;
     
