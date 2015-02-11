@@ -76,6 +76,9 @@
                             <constraint firstAttribute="centerY" secondItem="ftn-1G-I5k" secondAttribute="centerY" id="yzb-r6-I0K"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="ftn-1G-I5k" id="vw8-3n-cqO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KeT-ql-GgE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

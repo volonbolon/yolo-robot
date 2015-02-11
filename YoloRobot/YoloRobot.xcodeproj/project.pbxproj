@@ -12,9 +12,9 @@
 		B085210E1A8ACC880056236A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B085210D1A8ACC880056236A /* ViewController.m */; };
 		B08521131A8ACC880056236A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B08521121A8ACC880056236A /* Images.xcassets */; };
 		B08521221A8ACC880056236A /* YoloRobotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B08521211A8ACC880056236A /* YoloRobotTests.m */; };
-		B08521461A8AD8830056236A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08521451A8AD8830056236A /* Main.storyboard */; };
 		B085214A1A8ADC5B0056236A /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B08521491A8ADC5B0056236A /* ContentViewController.m */; };
 		B085214D1A8ADEB50056236A /* NSBundle+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = B085214C1A8ADEB50056236A /* NSBundle+Convenience.m */; };
+		B085214E1A8AFA180056236A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08521501A8AFA180056236A /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,12 +39,13 @@
 		B085211B1A8ACC880056236A /* YoloRobotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoloRobotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B08521201A8ACC880056236A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B08521211A8ACC880056236A /* YoloRobotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoloRobotTests.m; sourceTree = "<group>"; };
-		B08521451A8AD8830056236A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B08521471A8ADBCD0056236A /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		B08521481A8ADC5B0056236A /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
 		B08521491A8ADC5B0056236A /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
 		B085214B1A8ADEB50056236A /* NSBundle+Convenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Convenience.h"; sourceTree = "<group>"; };
 		B085214C1A8ADEB50056236A /* NSBundle+Convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Convenience.m"; sourceTree = "<group>"; };
+		B08521511A8AFA1B0056236A /* es */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = es; path = es.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B08521521A8AFA230056236A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +87,7 @@
 		B08521041A8ACC880056236A /* YoloRobot */ = {
 			isa = PBXGroup;
 			children = (
-				B08521451A8AD8830056236A /* Main.storyboard */,
+				B08521501A8AFA180056236A /* Main.storyboard */,
 				B08521091A8ACC880056236A /* AppDelegate.h */,
 				B085210A1A8ACC880056236A /* AppDelegate.m */,
 				B085210C1A8ACC880056236A /* ViewController.h */,
@@ -191,6 +192,7 @@
 			knownRegions = (
 				en,
 				es,
+				Base,
 			);
 			mainGroup = B08520F91A8ACC880056236A;
 			productRefGroup = B08521031A8ACC880056236A /* Products */;
@@ -209,7 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B08521131A8ACC880056236A /* Images.xcassets in Resources */,
-				B08521461A8AD8830056236A /* Main.storyboard in Resources */,
+				B085214E1A8AFA180056236A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +254,18 @@
 			targetProxy = B085211C1A8ACC880056236A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B08521501A8AFA180056236A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B08521511A8AFA1B0056236A /* es */,
+				B08521521A8AFA230056236A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B08521231A8ACC880056236A /* Debug */ = {
