@@ -18,10 +18,12 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         
-        NSUserDefaults *sud = [NSUserDefaults standardUserDefaults];
-        NSString *tenantBundleName = [sud objectForKey:kSelectedBundleNameKey];
-        NSURL *tenantBundleURL = [[NSBundle mainBundle] URLForResource:tenantBundleName withExtension:@"bundle"];
-        tenantBundle = [NSBundle bundleWithURL:tenantBundleURL];
+        NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+        NSString *documentsDirectory = [paths firstObject];
+        
+        NSString *tenantBundlePath = [documentsDirectory stringByAppendingPathComponent:@"blue.bundle"];
+
+        tenantBundle = [NSBundle bundleWithPath:tenantBundlePath];
         
     });
     
