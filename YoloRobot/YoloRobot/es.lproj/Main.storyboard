@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="1001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y0R-w1-rsW">
+                                <rect key="frame" x="285" y="266" width="31" height="30"/>
+                                <state key="normal" title="Blue">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectBundleButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hcQ-Cr-xMz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jIv-P3-AWs">
+                                <rect key="frame" x="285" y="304" width="30" height="30"/>
+                                <state key="normal" title="Red">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectBundleButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="erM-tk-2fp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="jIv-P3-AWs" secondAttribute="centerX" id="895-bb-Sj2"/>
+                            <constraint firstAttribute="centerY" secondItem="jIv-P3-AWs" secondAttribute="centerY" constant="-19" id="PTM-Jd-djz"/>
+                            <constraint firstAttribute="centerY" secondItem="y0R-w1-rsW" secondAttribute="centerY" constant="19" id="bSs-sj-zkg"/>
+                            <constraint firstAttribute="centerX" secondItem="y0R-w1-rsW" secondAttribute="centerX" id="qnE-qP-xnH"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <segue destination="WWZ-XM-Tse" kind="presentation" identifier="presentContentSegue" id="U5E-IO-NOw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304" y="429"/>
+        </scene>
+        <!--Content View Controller-->
+        <scene sceneID="yk5-o2-B8p">
+            <objects>
+                <viewController id="WWZ-XM-Tse" customClass="ContentViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sfx-nb-Xgs"/>
+                        <viewControllerLayoutGuide type="bottom" id="gvP-zb-fiQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Qc1-dh-j1G">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ftn-1G-I5k">
+                                <rect key="frame" x="279" y="289" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="ftn-1G-I5k" secondAttribute="centerX" id="YEw-Rl-jZh"/>
+                            <constraint firstAttribute="centerY" secondItem="ftn-1G-I5k" secondAttribute="centerY" id="yzb-r6-I0K"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="ftn-1G-I5k" id="vw8-3n-cqO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KeT-ql-GgE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="951" y="429"/>
+        </scene>
+    </scenes>
+</document>

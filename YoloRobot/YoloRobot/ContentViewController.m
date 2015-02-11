@@ -7,8 +7,10 @@
 //
 
 #import "ContentViewController.h"
+#import "NSBundle+Convenience.h"
 
 @interface ContentViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *label;
 
 @end
 
@@ -16,7 +18,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    NSBundle *b = [NSBundle tenantBundle];
+
+    NSString *title = NSLocalizedStringFromTableInBundle(@"title", @"Localizable", b, nil);
+
+    [[self label] setText:title];
+    
 }
 
 - (void)didReceiveMemoryWarning {

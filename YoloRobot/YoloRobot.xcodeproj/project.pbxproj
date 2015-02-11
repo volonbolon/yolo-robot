@@ -12,6 +12,8 @@
 		B085210E1A8ACC880056236A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B085210D1A8ACC880056236A /* ViewController.m */; };
 		B08521131A8ACC880056236A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B08521121A8ACC880056236A /* Images.xcassets */; };
 		B08521221A8ACC880056236A /* YoloRobotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B08521211A8ACC880056236A /* YoloRobotTests.m */; };
+		B08521421A8AD7930056236A /* blue.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B08521411A8AD7930056236A /* blue.bundle */; };
+		B08521441A8AD8350056236A /* red.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B08521431A8AD8350056236A /* red.bundle */; };
 		B085214A1A8ADC5B0056236A /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B08521491A8ADC5B0056236A /* ContentViewController.m */; };
 		B085214D1A8ADEB50056236A /* NSBundle+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = B085214C1A8ADEB50056236A /* NSBundle+Convenience.m */; };
 		B085214E1A8AFA180056236A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08521501A8AFA180056236A /* Main.storyboard */; };
@@ -40,6 +42,8 @@
 		B085211B1A8ACC880056236A /* YoloRobotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoloRobotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B08521201A8ACC880056236A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B08521211A8ACC880056236A /* YoloRobotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoloRobotTests.m; sourceTree = "<group>"; };
+		B08521411A8AD7930056236A /* blue.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = blue.bundle; path = YoloRobot/blue.bundle; sourceTree = "<group>"; };
+		B08521431A8AD8350056236A /* red.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = red.bundle; path = YoloRobot/red.bundle; sourceTree = "<group>"; };
 		B08521471A8ADBCD0056236A /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		B08521481A8ADC5B0056236A /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
 		B08521491A8ADC5B0056236A /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
@@ -72,6 +76,8 @@
 		B08520F91A8ACC880056236A = {
 			isa = PBXGroup;
 			children = (
+				B08521431A8AD8350056236A /* red.bundle */,
+				B08521411A8AD7930056236A /* blue.bundle */,
 				B08521041A8ACC880056236A /* YoloRobot */,
 				B085211E1A8ACC880056236A /* YoloRobotTests */,
 				B08521031A8ACC880056236A /* Products */,
@@ -216,6 +222,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B08521131A8ACC880056236A /* Images.xcassets in Resources */,
+				B08521421A8AD7930056236A /* blue.bundle in Resources */,
+				B08521441A8AD8350056236A /* red.bundle in Resources */,
 				B085214E1A8AFA180056236A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
