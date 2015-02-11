@@ -1,0 +1,9 @@
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "ftn-1G-I5k"; */
+"ftn-1G-I5k.text" = "Label";
+
+/* Class = "IBUIButton"; normalTitle = "Red"; ObjectID = "jIv-P3-AWs"; */
+"jIv-P3-AWs.normalTitle" = "Red";
+
+/* Class = "IBUIButton"; normalTitle = "Blue"; ObjectID = "y0R-w1-rsW"; */
+"y0R-w1-rsW.normalTitle" = "Blue";

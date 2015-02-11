@@ -12,6 +12,7 @@
 
 @interface ContentViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *label;
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
 @end
 
@@ -29,6 +30,10 @@
 
     UIColor *background = [UIColor colorWithHexString:[colors objectForKey:@"background"]];
     UIColor *foreground = [UIColor colorWithHexString:[colors objectForKey:@"foreground"]];
+    
+    UIImage *image = [UIImage imageNamed:@"Images/pic" inBundle:b compatibleWithTraitCollection:nil];
+    
+    [[self imageView] setImage:image];
     
     [[self label] setTextColor:foreground];
     [[self label] setText:title];
