@@ -64,19 +64,29 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ftn-1G-I5k">
-                                <rect key="frame" x="279" y="289" width="42" height="21"/>
+                                <rect key="frame" x="279" y="414" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PTR-PI-GX3">
+                                <rect key="frame" x="75" y="165" width="451" height="241"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="451" id="6v4-ch-YLM"/>
+                                    <constraint firstAttribute="height" constant="241" id="ltp-XM-0Au"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="ftn-1G-I5k" secondAttribute="centerX" id="YEw-Rl-jZh"/>
-                            <constraint firstAttribute="centerY" secondItem="ftn-1G-I5k" secondAttribute="centerY" id="yzb-r6-I0K"/>
+                            <constraint firstAttribute="centerX" secondItem="PTR-PI-GX3" secondAttribute="centerX" constant="-0.5" id="Age-nF-yr3"/>
+                            <constraint firstAttribute="centerY" secondItem="PTR-PI-GX3" secondAttribute="centerY" constant="14.5" id="Gv5-5Z-hKm"/>
+                            <constraint firstAttribute="centerY" secondItem="ftn-1G-I5k" secondAttribute="centerY" constant="-124.5" id="cBT-2D-wRQ"/>
+                            <constraint firstAttribute="centerX" secondItem="ftn-1G-I5k" secondAttribute="centerX" id="tx5-qS-ojS"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="imageView" destination="PTR-PI-GX3" id="Dpi-uR-lbJ"/>
                         <outlet property="label" destination="ftn-1G-I5k" id="vw8-3n-cqO"/>
                     </connections>
                 </viewController>

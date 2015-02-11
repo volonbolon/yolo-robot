@@ -49,10 +49,11 @@
 		B08521491A8ADC5B0056236A /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
 		B085214B1A8ADEB50056236A /* NSBundle+Convenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Convenience.h"; sourceTree = "<group>"; };
 		B085214C1A8ADEB50056236A /* NSBundle+Convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Convenience.m"; sourceTree = "<group>"; };
-		B08521511A8AFA1B0056236A /* es */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = es; path = es.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B08521521A8AFA230056236A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B08521551A8AFC9E0056236A /* UIColor+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Helpers.h"; sourceTree = "<group>"; };
 		B08521561A8AFC9E0056236A /* UIColor+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Helpers.m"; sourceTree = "<group>"; };
+		B0B985C41A8BAF02009F9286 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		B0B985C61A8BAF0F009F9286 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -273,8 +274,9 @@
 		B08521501A8AFA180056236A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B08521511A8AFA1B0056236A /* es */,
 				B08521521A8AFA230056236A /* Base */,
+				B0B985C41A8BAF02009F9286 /* en */,
+				B0B985C61A8BAF0F009F9286 /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -433,6 +435,7 @@
 				B08521271A8ACC880056236A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B08521281A8ACC880056236A /* Build configuration list for PBXNativeTarget "YoloRobotTests" */ = {
 			isa = XCConfigurationList;
@@ -441,6 +444,7 @@
 				B085212A1A8ACC880056236A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
