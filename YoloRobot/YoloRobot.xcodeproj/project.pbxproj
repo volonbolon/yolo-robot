@@ -14,6 +14,7 @@
 		B08521221A8ACC880056236A /* YoloRobotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B08521211A8ACC880056236A /* YoloRobotTests.m */; };
 		B08521461A8AD8830056236A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08521451A8AD8830056236A /* Main.storyboard */; };
 		B085214A1A8ADC5B0056236A /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B08521491A8ADC5B0056236A /* ContentViewController.m */; };
+		B085214D1A8ADEB50056236A /* NSBundle+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = B085214C1A8ADEB50056236A /* NSBundle+Convenience.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		B08521471A8ADBCD0056236A /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		B08521481A8ADC5B0056236A /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
 		B08521491A8ADC5B0056236A /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
+		B085214B1A8ADEB50056236A /* NSBundle+Convenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Convenience.h"; sourceTree = "<group>"; };
+		B085214C1A8ADEB50056236A /* NSBundle+Convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Convenience.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 				B08521471A8ADBCD0056236A /* Constants.h */,
 				B08521481A8ADC5B0056236A /* ContentViewController.h */,
 				B08521491A8ADC5B0056236A /* ContentViewController.m */,
+				B085214B1A8ADEB50056236A /* NSBundle+Convenience.h */,
+				B085214C1A8ADEB50056236A /* NSBundle+Convenience.m */,
 			);
 			path = YoloRobot;
 			sourceTree = "<group>";
@@ -224,6 +229,7 @@
 			files = (
 				B085214A1A8ADC5B0056236A /* ContentViewController.m in Sources */,
 				B085210E1A8ACC880056236A /* ViewController.m in Sources */,
+				B085214D1A8ADEB50056236A /* NSBundle+Convenience.m in Sources */,
 				B085210B1A8ACC880056236A /* AppDelegate.m in Sources */,
 				B08521081A8ACC880056236A /* main.m in Sources */,
 			);
