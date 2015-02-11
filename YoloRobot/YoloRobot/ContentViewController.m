@@ -8,6 +8,7 @@
 
 #import "ContentViewController.h"
 #import "NSBundle+Convenience.h"
+#import "UIColor+Helpers.h"
 
 @interface ContentViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *label;
@@ -22,8 +23,17 @@
     NSBundle *b = [NSBundle tenantBundle];
 
     NSString *title = NSLocalizedStringFromTableInBundle(@"title", @"Localizable", b, nil);
+    
+    NSURL *colorsDictURL = [b URLForResource:@"Colors" withExtension:@"plist"];
+    NSDictionary *colors = [[NSDictionary alloc] initWithContentsOfURL:colorsDictURL];
 
+    UIColor *background = [UIColor colorWithHexString:[colors objectForKey:@"background"]];
+    UIColor *foreground = [UIColor colorWithHexString:[colors objectForKey:@"foreground"]];
+    
+    [[self label] setTextColor:foreground];
     [[self label] setText:title];
+    
+    [[self view] setBackgroundColor:background];
     
 }
 
