@@ -10,10 +10,9 @@
 		B08521081A8ACC880056236A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B08521071A8ACC880056236A /* main.m */; };
 		B085210B1A8ACC880056236A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B085210A1A8ACC880056236A /* AppDelegate.m */; };
 		B085210E1A8ACC880056236A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B085210D1A8ACC880056236A /* ViewController.m */; };
-		B08521111A8ACC880056236A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B085210F1A8ACC880056236A /* Main.storyboard */; };
 		B08521131A8ACC880056236A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B08521121A8ACC880056236A /* Images.xcassets */; };
-		B08521161A8ACC880056236A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B08521141A8ACC880056236A /* LaunchScreen.xib */; };
 		B08521221A8ACC880056236A /* YoloRobotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B08521211A8ACC880056236A /* YoloRobotTests.m */; };
+		B08521461A8AD8830056236A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08521451A8AD8830056236A /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +33,11 @@
 		B085210A1A8ACC880056236A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B085210C1A8ACC880056236A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B085210D1A8ACC880056236A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B08521101A8ACC880056236A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B08521121A8ACC880056236A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B08521151A8ACC880056236A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B085211B1A8ACC880056236A /* YoloRobotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoloRobotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B08521201A8ACC880056236A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B08521211A8ACC880056236A /* YoloRobotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoloRobotTests.m; sourceTree = "<group>"; };
+		B08521451A8AD8830056236A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +79,12 @@
 		B08521041A8ACC880056236A /* YoloRobot */ = {
 			isa = PBXGroup;
 			children = (
+				B08521451A8AD8830056236A /* Main.storyboard */,
 				B08521091A8ACC880056236A /* AppDelegate.h */,
 				B085210A1A8ACC880056236A /* AppDelegate.m */,
 				B085210C1A8ACC880056236A /* ViewController.h */,
 				B085210D1A8ACC880056236A /* ViewController.m */,
-				B085210F1A8ACC880056236A /* Main.storyboard */,
 				B08521121A8ACC880056236A /* Images.xcassets */,
-				B08521141A8ACC880056236A /* LaunchScreen.xib */,
 				B08521051A8ACC880056236A /* Supporting Files */,
 			);
 			path = YoloRobot;
@@ -181,7 +178,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
+				es,
 			);
 			mainGroup = B08520F91A8ACC880056236A;
 			productRefGroup = B08521031A8ACC880056236A /* Products */;
@@ -199,9 +196,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B08521111A8ACC880056236A /* Main.storyboard in Resources */,
-				B08521161A8ACC880056236A /* LaunchScreen.xib in Resources */,
 				B08521131A8ACC880056236A /* Images.xcassets in Resources */,
+				B08521461A8AD8830056236A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
