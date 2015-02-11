@@ -15,6 +15,7 @@
 		B085214A1A8ADC5B0056236A /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B08521491A8ADC5B0056236A /* ContentViewController.m */; };
 		B085214D1A8ADEB50056236A /* NSBundle+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = B085214C1A8ADEB50056236A /* NSBundle+Convenience.m */; };
 		B085214E1A8AFA180056236A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08521501A8AFA180056236A /* Main.storyboard */; };
+		B08521571A8AFC9E0056236A /* UIColor+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = B08521561A8AFC9E0056236A /* UIColor+Helpers.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		B085214C1A8ADEB50056236A /* NSBundle+Convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Convenience.m"; sourceTree = "<group>"; };
 		B08521511A8AFA1B0056236A /* es */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = es; path = es.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B08521521A8AFA230056236A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B08521551A8AFC9E0056236A /* UIColor+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Helpers.h"; sourceTree = "<group>"; };
+		B08521561A8AFC9E0056236A /* UIColor+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Helpers.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,8 @@
 				B08521491A8ADC5B0056236A /* ContentViewController.m */,
 				B085214B1A8ADEB50056236A /* NSBundle+Convenience.h */,
 				B085214C1A8ADEB50056236A /* NSBundle+Convenience.m */,
+				B08521551A8AFC9E0056236A /* UIColor+Helpers.h */,
+				B08521561A8AFC9E0056236A /* UIColor+Helpers.m */,
 			);
 			path = YoloRobot;
 			sourceTree = "<group>";
@@ -230,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B085214A1A8ADC5B0056236A /* ContentViewController.m in Sources */,
+				B08521571A8AFC9E0056236A /* UIColor+Helpers.m in Sources */,
 				B085210E1A8ACC880056236A /* ViewController.m in Sources */,
 				B085214D1A8ADEB50056236A /* NSBundle+Convenience.m in Sources */,
 				B085210B1A8ACC880056236A /* AppDelegate.m in Sources */,
