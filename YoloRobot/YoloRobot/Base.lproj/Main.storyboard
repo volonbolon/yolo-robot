@@ -34,16 +34,24 @@
                                     <action selector="selectBundleButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="erM-tk-2fp"/>
                                 </connections>
                             </button>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="zQI-QL-vqE">
+                                <rect key="frame" x="290" y="290" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="jIv-P3-AWs" secondAttribute="centerX" id="895-bb-Sj2"/>
+                            <constraint firstAttribute="centerY" secondItem="zQI-QL-vqE" secondAttribute="centerY" id="Egr-ga-Dxa"/>
                             <constraint firstAttribute="centerY" secondItem="jIv-P3-AWs" secondAttribute="centerY" constant="-19" id="PTM-Jd-djz"/>
                             <constraint firstAttribute="centerY" secondItem="y0R-w1-rsW" secondAttribute="centerY" constant="19" id="bSs-sj-zkg"/>
                             <constraint firstAttribute="centerX" secondItem="y0R-w1-rsW" secondAttribute="centerX" id="qnE-qP-xnH"/>
+                            <constraint firstAttribute="centerX" secondItem="zQI-QL-vqE" secondAttribute="centerX" id="v2V-ro-yAZ"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="activityIndicator" destination="zQI-QL-vqE" id="hhf-sq-K5p"/>
+                        <outletCollection property="buttons" destination="y0R-w1-rsW" id="Rmm-Q6-VwT"/>
+                        <outletCollection property="buttons" destination="jIv-P3-AWs" id="kn2-OJ-g0z"/>
                         <segue destination="WWZ-XM-Tse" kind="presentation" identifier="presentContentSegue" id="U5E-IO-NOw"/>
                     </connections>
                 </viewController>

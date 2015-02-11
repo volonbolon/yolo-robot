@@ -21,7 +21,7 @@
         NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
         NSString *documentsDirectory = [paths firstObject];
         
-        NSString *tenantBundlePath = [documentsDirectory stringByAppendingPathComponent:@"blue.bundle"];
+        NSString *tenantBundlePath = [documentsDirectory stringByAppendingPathComponent:kTenantBundleNameName];
 
         tenantBundle = [NSBundle bundleWithPath:tenantBundlePath];
         

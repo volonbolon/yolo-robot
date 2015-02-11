@@ -10,5 +10,6 @@
 #define YoloRobot_Constants_h
 
 static NSString *const kSelectedBundleNameKey = @"kSelectedBundleNameKey";
+static NSString *const kTenantBundleNameName = @"tenant.bundle";
 
 #endif
