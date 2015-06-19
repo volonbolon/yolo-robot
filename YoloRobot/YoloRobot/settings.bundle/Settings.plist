@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>updated_at</key>
+	<date>2015-06-19T14:19:03Z</date>
+	<key>cbe-ios</key>
+	<dict>
+		<key>navBarLogoName</key>
+		<string>brandman-logo.png</string>
+		<key>navigationBarColor</key>
+		<string>crimson,153,51,51,255</string>
+		<key>primaryColor</key>
+		<string>crimson,153,51,51,255</string>
+		<key>primaryNavigationColor</key>
+		<string>white,255,255,255,255</string>
+		<key>secondaryColor</key>
+		<string>gold,251,175,88,255</string>
+		<key>secondaryNavigationColor</key>
+		<string>gold,251,175,88,255</string>
+		<key>rubric_criteria_grouping</key>
+		<false/>
+		<key>summative_quiz_questions_timer</key>
+		<true/>
+		<key>summative_quiz_results_timer</key>
+		<true/>
+		<key>dark_color</key>
+		<string>#B2323B</string>
+		<key>light_color</key>
+		<string>#FBAF58</string>
+		<key>enrollment_engaged_time</key>
+		<integer>604800</integer>
+		<key>inverted_colors</key>
+		<true/>
+		<key>max_file_upload</key>
+		<integer>3</integer>
+		<key>active_user_threshold</key>
+		<integer>60</integer>
+		<key>include_applicants</key>
+		<true/>
+		<key>social_non_academic</key>
+		<true/>
+		<key>enable_badges</key>
+		<true/>
+	</dict>
+</dict>
+</plist>
